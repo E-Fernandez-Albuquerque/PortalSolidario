@@ -9,13 +9,15 @@ import { HeaderComponent } from './template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatCardModule } from '@angular/material/card';
-import { FooterComponent } from './template/footer/footer.component'
+import { FooterComponent } from './template/footer/footer.component';
+import { SideMenuComponent } from './template/side-menu/side-menu.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,
