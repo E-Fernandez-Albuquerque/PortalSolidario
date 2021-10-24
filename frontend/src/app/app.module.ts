@@ -12,14 +12,16 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './template/footer/footer.component';
 import { SideMenuComponent } from './template/side-menu/side-menu.component'
 import { MatSidenavModule } from '@angular/material/sidenav'
-import { MatListModule } from '@angular/material/list'
+import { MatListModule } from '@angular/material/list';
+import { ProductsComponent } from './body/products/products.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
