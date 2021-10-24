@@ -11,6 +11,8 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './template/footer/footer.component';
 import { SideMenuComponent } from './template/side-menu/side-menu.component'
+import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatListModule } from '@angular/material/list'
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SideMenuComponent } from './template/side-menu/side-menu.component'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatFormFieldModule,
-    MatCardModule
+    MatCardModule, 
+    MatListModule, 
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

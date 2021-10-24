@@ -1,1 +1,21 @@
-<p>side-menu works!</p>
+<mat-sidenav-container class="menu-container">
+    <mat-sidenav class="side-menu" mode='side' opened fixedInViewport='true' fixedTopGap='65' fixedBottomGap='64'>
+        <mat-nav-list class="itens">
+            <a mat-list-item class="item item1">
+                <i class="material-icons">contact_page</i>
+                Dados básicos
+            </a>
+            <a mat-list-item class="item">
+                <i class="material-icons">star_rate</i>
+                Institucional
+            </a>
+            <a mat-list-item class="item">
+                <i class="material-icons">shopping_cart</i>
+                Produtos
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

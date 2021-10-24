@@ -1,0 +1,13 @@
+.side-menu{
+    background-color: #f3fafa;
+    width: 200px;
+}
+
+.item{
+    color: #888;
+}
+
+.item i{
+    color: #888;
+    margin: 10px;
+}
