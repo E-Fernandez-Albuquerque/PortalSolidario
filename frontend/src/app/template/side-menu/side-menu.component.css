@@ -1,6 +1,7 @@
 .side-menu{
     background-color: #f3fafa;
     width: 200px;
+    border: none;
 }
 
 .item{
@@ -10,4 +11,8 @@
 .item i{
     color: #888;
     margin: 10px;
+}
+
+.menu-container{
+    background-color: #f3fafa;
 }
