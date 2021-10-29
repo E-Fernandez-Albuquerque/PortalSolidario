@@ -13,7 +13,11 @@ import { FooterComponent } from './template/footer/footer.component';
 import { SideMenuComponent } from './template/side-menu/side-menu.component'
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list';
-import { ProductsComponent } from './body/products/products.component'
+import { ProductsComponent } from './body/products/products.component';
+import { LoginComponent } from './login/login.component'
+import { FormsModule } from '@angular/forms'
+import { MatInputModule } from '@angular/material/input';
+import { ResetPwdComponent } from './reset-pwd/reset-pwd.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +25,9 @@ import { ProductsComponent } from './body/products/products.component'
     HeaderComponent,
     FooterComponent,
     SideMenuComponent,
-    ProductsComponent
+    ProductsComponent,
+    LoginComponent,
+    ResetPwdComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +37,9 @@ import { ProductsComponent } from './body/products/products.component'
     MatFormFieldModule,
     MatCardModule, 
     MatListModule, 
-    MatSidenavModule
+    MatSidenavModule, 
+    FormsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
