@@ -17,8 +17,8 @@
                 <mat-label>Senha</mat-label>
                 <input type='password' matInput>
             </mat-form-field>
-            <span style="color: #666;">Esqueceu a senha?</span>
-            <button type="button" class="btn btn-primary button" onclick="login()">Entrar</button>
+            <a style="color: #666; cursor: pointer;" (click)="reset()">Esqueceu a senha?</a>
+            <button type="button" class="btn btn-primary button" (click)="login()">Entrar</button>
             <span id="singup">Sua instituição ainda não é cadastrada? <strong><a id="singup">Cadastre-se agora!</a></strong></span>
         </div>
     </div>

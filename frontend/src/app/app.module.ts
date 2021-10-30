@@ -18,6 +18,8 @@ import { LoginComponent } from './login/login.component'
 import { FormsModule } from '@angular/forms'
 import { MatInputModule } from '@angular/material/input';
 import { ResetPwdComponent } from './reset-pwd/reset-pwd.component'
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { NewPwdComponent } from './new-pwd/new-pwd.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { ResetPwdComponent } from './reset-pwd/reset-pwd.component'
     SideMenuComponent,
     ProductsComponent,
     LoginComponent,
-    ResetPwdComponent
+    ResetPwdComponent,
+    NewPwdComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { ResetPwdComponent } from './reset-pwd/reset-pwd.component'
     MatListModule, 
     MatSidenavModule, 
     FormsModule,
-    MatInputModule
+    MatInputModule, 
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
