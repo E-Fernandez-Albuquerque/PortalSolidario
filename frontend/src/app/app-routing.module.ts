@@ -5,6 +5,7 @@ import { LoginComponent } from './tela-login/login/login.component';
 import { SideMenuComponent } from './template/side-menu/side-menu.component';
 import { ResetPwdComponent } from './tela-login/reset-pwd/reset-pwd.component';
 import { NewPwdComponent } from './tela-login/new-pwd/new-pwd.component';
+import { HelpBodyComponent } from './help/help-body/help-body.component';
 
 const routes: Routes = [{
   path: "products",
@@ -18,6 +19,9 @@ const routes: Routes = [{
 }, {
   path: "new-password", 
   component: NewPwdComponent
+}, {
+  path: "help", 
+  component: HelpBodyComponent
 }];
 
 @NgModule({

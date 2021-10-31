@@ -20,7 +20,10 @@ import { MatInputModule } from '@angular/material/input';
 import { ResetPwdComponent } from './tela-login/reset-pwd/reset-pwd.component'
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NewPwdComponent } from './tela-login/new-pwd/new-pwd.component';
-import { ImgLoginComponent } from './tela-login/img-login/img-login.component'
+import { ImgLoginComponent } from './tela-login/img-login/img-login.component';
+import { HelpHeaderComponent } from './help/help-header/help-header.component';
+import { HelpFooterComponent } from './help/help-footer/help-footer.component';
+import { HelpBodyComponent } from './help/help-body/help-body.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { ImgLoginComponent } from './tela-login/img-login/img-login.component'
     LoginComponent,
     ResetPwdComponent,
     NewPwdComponent,
-    ImgLoginComponent
+    ImgLoginComponent,
+    HelpHeaderComponent,
+    HelpFooterComponent,
+    HelpBodyComponent
   ],
   imports: [
     BrowserModule,
