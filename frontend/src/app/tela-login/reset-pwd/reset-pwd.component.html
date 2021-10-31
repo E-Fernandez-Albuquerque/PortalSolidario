@@ -3,9 +3,7 @@
 
 
 <div class="container-reset">
-    <div class="picture">
-        <img src="assets/pexels-mikhail-nilov-7474354.jpg" class="image">
-    </div>
+    <app-img-login></app-img-login>
     <div class="reset">
         <h2 id="title">Redefinição de senha.</h2>
         <div class="form">
@@ -14,6 +12,7 @@
                 <input matInput>
             </mat-form-field>
             <button type="button" class="btn btn-primary button" (click)="msgConfirmacao('Instruções encaminhadas com sucesso!')">Encaminhar instruções para o email</button>
+            <button type="button" class="btn btn-light button-second" routerLink="/login">Cancelar</button>
         </div>
     </div>
 </div>

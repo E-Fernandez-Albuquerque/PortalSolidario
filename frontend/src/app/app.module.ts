@@ -14,12 +14,13 @@ import { SideMenuComponent } from './template/side-menu/side-menu.component'
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list';
 import { ProductsComponent } from './body/products/products.component';
-import { LoginComponent } from './login/login.component'
+import { LoginComponent } from './tela-login/login/login.component'
 import { FormsModule } from '@angular/forms'
 import { MatInputModule } from '@angular/material/input';
-import { ResetPwdComponent } from './reset-pwd/reset-pwd.component'
+import { ResetPwdComponent } from './tela-login/reset-pwd/reset-pwd.component'
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { NewPwdComponent } from './new-pwd/new-pwd.component'
+import { NewPwdComponent } from './tela-login/new-pwd/new-pwd.component';
+import { ImgLoginComponent } from './tela-login/img-login/img-login.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NewPwdComponent } from './new-pwd/new-pwd.component'
     ProductsComponent,
     LoginComponent,
     ResetPwdComponent,
-    NewPwdComponent
+    NewPwdComponent,
+    ImgLoginComponent
   ],
   imports: [
     BrowserModule,

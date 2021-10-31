@@ -1,0 +1,12 @@
+.picture{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.image{
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}

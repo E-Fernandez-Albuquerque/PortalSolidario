@@ -15,7 +15,7 @@ export class ResetPwdComponent implements OnInit {
 
   msgConfirmacao(msg: string): void {
     this.snackBar.open(msg, 'Fechar', {
-      duration: 3000, 
+      duration: 4000, 
       horizontalPosition: "right", 
       verticalPosition: "top"
     })
