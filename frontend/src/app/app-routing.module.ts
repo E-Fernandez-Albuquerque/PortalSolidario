@@ -6,6 +6,8 @@ import { SideMenuComponent } from './template/side-menu/side-menu.component';
 import { ResetPwdComponent } from './tela-login/reset-pwd/reset-pwd.component';
 import { NewPwdComponent } from './tela-login/new-pwd/new-pwd.component';
 import { HelpBodyComponent } from './help/help-body/help-body.component';
+import { InstitucionalComponent } from './body/institucional/institucional.component';
+import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component';
 
 const routes: Routes = [{
   path: "products",
@@ -22,6 +24,12 @@ const routes: Routes = [{
 }, {
   path: "help", 
   component: HelpBodyComponent
+},{
+  path: "institucional", 
+  component: InstitucionalComponent
+},{
+  path: "dados-basicos", 
+  component: DadosBasicosComponent
 }];
 
 @NgModule({

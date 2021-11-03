@@ -23,7 +23,9 @@ import { NewPwdComponent } from './tela-login/new-pwd/new-pwd.component';
 import { ImgLoginComponent } from './tela-login/img-login/img-login.component';
 import { HelpHeaderComponent } from './help/help-header/help-header.component';
 import { HelpFooterComponent } from './help/help-footer/help-footer.component';
-import { HelpBodyComponent } from './help/help-body/help-body.component'
+import { HelpBodyComponent } from './help/help-body/help-body.component';
+import { InstitucionalComponent } from './body/institucional/institucional.component';
+import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component'
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { HelpBodyComponent } from './help/help-body/help-body.component'
     ImgLoginComponent,
     HelpHeaderComponent,
     HelpFooterComponent,
-    HelpBodyComponent
+    HelpBodyComponent,
+    InstitucionalComponent,
+    DadosBasicosComponent
   ],
   imports: [
     BrowserModule,
