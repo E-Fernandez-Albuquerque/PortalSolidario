@@ -28,6 +28,7 @@ import { InstitucionalComponent } from './body/institucional/institucional.compo
 import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component'
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MainComponent } from './main/main.component'
+import { CadastroSiteComponente } from './body/cadastroSite/cadastroSite.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { MainComponent } from './main/main.component'
     HelpBodyComponent,
     InstitucionalComponent,
     DadosBasicosComponent,
-    MainComponent
+    MainComponent,
+    CadastroSiteComponente
   ],
   imports: [
     BrowserModule,

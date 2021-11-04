@@ -1,4 +1,5 @@
 import { ProductsComponent } from './body/products/products.component';
+import { CadastroSiteComponente} from './body/cadastroSite/cadastroSite.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './tela-login/login/login.component';
@@ -34,6 +35,9 @@ const routes: Routes = [{
 }, {
   path: "", 
   component: MainComponent
+},{
+  path:"cadastroSite",
+  component: CadastroSiteComponente
 }];
 
 @NgModule({
