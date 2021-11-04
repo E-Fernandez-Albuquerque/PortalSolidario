@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #f3fafa;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer span{
+    font-family: Zen Kurenaido;
+    letter-spacing: -1px;
+    color: #888;
+    font-weight: bold;
+}

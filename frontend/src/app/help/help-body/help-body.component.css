@@ -1,0 +1,87 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#help-title{
+    color: #EE2E34;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#perguntas-frequentes{
+    color: #414141;
+    margin-top: 10vh;
+    border-top: #EE2E34 2px solid;
+    padding: 5px;
+}
+
+#img{
+    height: 14vh;
+    margin: 8vh 0 5vh 0;
+}
+
+.input-search{
+    margin-top: 0vh;
+    width: 30%;
+}
+
+.button-search:hover{
+    background-color: #96E0CE;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.buttons-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 30vw;
+}
+
+.buttons-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 30vw;
+}
+
+.assunto{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 2px 6px 6px 6px;
+    color: #A9D043;
+}
+
+.duvida{
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #888;
+}
+
+.duvida:hover{
+    color: #414141;
+    cursor: default;
+}
+
+.duvida:visited{
+    color: #888;
+    text-decoration: none;
+}

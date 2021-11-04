@@ -26,6 +26,7 @@ import { HelpFooterComponent } from './help/help-footer/help-footer.component';
 import { HelpBodyComponent } from './help/help-body/help-body.component';
 import { InstitucionalComponent } from './body/institucional/institucional.component';
 import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component'
+import { MatExpansionModule } from '@angular/material/expansion'
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.compon
     MatSidenavModule, 
     FormsModule,
     MatInputModule, 
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
