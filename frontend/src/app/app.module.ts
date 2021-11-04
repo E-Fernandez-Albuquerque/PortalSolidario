@@ -26,7 +26,8 @@ import { HelpFooterComponent } from './help/help-footer/help-footer.component';
 import { HelpBodyComponent } from './help/help-body/help-body.component';
 import { InstitucionalComponent } from './body/institucional/institucional.component';
 import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component'
-import { MatExpansionModule } from '@angular/material/expansion'
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MainComponent } from './main/main.component'
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { MatExpansionModule } from '@angular/material/expansion'
     HelpFooterComponent,
     HelpBodyComponent,
     InstitucionalComponent,
-    DadosBasicosComponent
+    DadosBasicosComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { NewPwdComponent } from './tela-login/new-pwd/new-pwd.component';
 import { HelpBodyComponent } from './help/help-body/help-body.component';
 import { InstitucionalComponent } from './body/institucional/institucional.component';
 import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component';
+import { MainComponent } from './main/main.component';
 
 const routes: Routes = [{
   path: "products",
@@ -30,6 +31,9 @@ const routes: Routes = [{
 },{
   path: "dados-basicos", 
   component: DadosBasicosComponent
+}, {
+  path: "", 
+  component: MainComponent
 }];
 
 @NgModule({
