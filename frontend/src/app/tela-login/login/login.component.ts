@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    this.router.navigate(['/dados-basicos']);
+    this.router.navigate(['/cadastroSite']);
   }
 
   reset() {
