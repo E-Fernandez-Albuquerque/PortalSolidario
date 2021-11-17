@@ -10,6 +10,7 @@ import { HelpBodyComponent } from './help/help-body/help-body.component';
 import { InstitucionalComponent } from './body/institucional/institucional.component';
 import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.component';
 import { MainComponent } from './main/main.component';
+import {preCadastroComponente} from '../app/body/pre-cadastro/pre-cadastro.component'
 
 const routes: Routes = [{
   path: "products",
@@ -38,7 +39,12 @@ const routes: Routes = [{
 },{
   path:"cadastroSite",
   component: CadastroSiteComponente
-}];
+},
+{
+  path:"pre-cadastro",
+  component: preCadastroComponente
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
