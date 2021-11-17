@@ -29,6 +29,7 @@ import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.compon
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MainComponent } from './main/main.component'
 import { CadastroSiteComponente } from './body/cadastroSite/cadastroSite.component';
+import {preCadastroComponente} from './body/pre-cadastro/pre-cadastro.component'
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { CadastroSiteComponente } from './body/cadastroSite/cadastroSite.compone
     InstitucionalComponent,
     DadosBasicosComponent,
     MainComponent,
-    CadastroSiteComponente
+    CadastroSiteComponente,
+    preCadastroComponente
   ],
   imports: [
     BrowserModule,
