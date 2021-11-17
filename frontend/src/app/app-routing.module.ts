@@ -1,3 +1,4 @@
+import { PreviewBodyComponent } from './page-preview/preview-body/preview-body.component';
 import { ProductsComponent } from './body/products/products.component';
 import { CadastroSiteComponente} from './body/cadastroSite/cadastroSite.component';
 import { NgModule, Component } from '@angular/core';
@@ -43,6 +44,9 @@ const routes: Routes = [{
 {
   path:"pre-cadastro",
   component: preCadastroComponente
+}, {
+  path:"preview",
+  component: PreviewBodyComponent
 }
 ];
 

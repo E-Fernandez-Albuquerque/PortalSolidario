@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #57BBB3;
+    height: 50px;
+    width: 100%;
+}
+
+.header img{
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.button-back{
+    margin-right: 65%;
+}

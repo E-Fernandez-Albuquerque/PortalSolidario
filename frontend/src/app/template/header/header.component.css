@@ -76,17 +76,17 @@
 
 .button-preview{
     margin-left: 180px;
-    color: #000;
+    color: #fcfcfc;
     font-family: Zen Kurenaido, sans-serif;
     font-weight: 700;
 }
 
 .button-preview:hover{
-    color: black;
+    color: #fcfcfc;
 }
 
 .button-preview:focus{
-    color: black;
+    color: #fcfcfc ;
 }
 
 .icons{

@@ -47,4 +47,9 @@
 
 a#singup{
     cursor: pointer;
+    text-decoration: none;
+}
+
+a#singup:visited{
+    text-decoration: none;
 }

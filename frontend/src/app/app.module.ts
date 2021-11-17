@@ -29,7 +29,10 @@ import { DadosBasicosComponent } from './body/dados-basicos/dados-basicos.compon
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MainComponent } from './main/main.component'
 import { CadastroSiteComponente } from './body/cadastroSite/cadastroSite.component';
-import {preCadastroComponente} from './body/pre-cadastro/pre-cadastro.component'
+import { preCadastroComponente } from './body/pre-cadastro/pre-cadastro.component';
+import { PreviewHeaderComponent } from './page-preview/preview-header/preview-header.component';
+import { PreviewFooterComponent } from './page-preview/preview-footer/preview-footer.component';
+import { PreviewBodyComponent } from './page-preview/preview-body/preview-body.component'
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import {preCadastroComponente} from './body/pre-cadastro/pre-cadastro.component'
     DadosBasicosComponent,
     MainComponent,
     CadastroSiteComponente,
-    preCadastroComponente
+    preCadastroComponente,
+    PreviewHeaderComponent,
+    PreviewFooterComponent,
+    PreviewBodyComponent
   ],
   imports: [
     BrowserModule,
