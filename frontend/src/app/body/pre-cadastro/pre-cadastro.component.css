@@ -2,7 +2,7 @@
     background-color: #f3fafa;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .header img{
     width: 10%;
@@ -11,6 +11,8 @@
 .header h1{
     margin-left: 20px;
     font-size: 30px;
+    color: #666;
+    font-weight: 200;
 }
 .container{
     margin-top: 50px;
@@ -62,4 +64,11 @@ textarea{
 }
 .enviar a{
     width: 200px;
+}
+
+.help-icon{
+    padding: 0 10px;
+    display: flex;
+    color: #96e0ce;
+    cursor: pointer;
 }
