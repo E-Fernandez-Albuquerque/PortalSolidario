@@ -33,7 +33,7 @@
 }
 
 .search-button{
-    background-color: #E95151;
+    background-color: #2aa5c7;
     border: none;
     height: 40px;
     padding: 10px;
@@ -49,7 +49,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    color: #E95151;
+    color: #2aa5c7;
 }
 
 .bag{
@@ -78,7 +78,7 @@
 }
 
 .nav a:hover{
-    background-color: rgb(240, 40, 20);
+    background-color: #2aa5c7;
     color: #fff;
 }
 
@@ -88,8 +88,13 @@
 
 .banner{
     width: 100%;
-    height: 300px;
+    height: 260px;
     background-color: #b1b1b1;
+}
+
+.banner-img{
+    width: 100%;
+    height: 260px;
 }
 
 .donate{
@@ -131,25 +136,37 @@
     width: 170px;
     height: 200px;
     margin: 10px;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
 }
 
-.products .desc{
+.products td img:hover{
+    filter: brightness(.45);
+}
+
+.products .desc, .products .price{
     display: flex;
     justify-content: center;
-    color: rgb(240, 40, 20);
+    color: #2aa5c7;
     font-family: sans-serif;
     font-weight: bolder;
     margin-bottom: 10px;;
 }
 
+.products .price{
+    color: #666;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+
 .products .donate-span{
-    background-color: rgb(240, 40, 20);
+    background-color: #2aa5c7;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
     width: 110px;
-    border: 1px solid rgb(240, 40, 20);
+    border: 1px solid #2aa5c7;
     border-radius: 18px;
     margin-left: 40px;
     font-family: sans-serif;
@@ -160,8 +177,8 @@
 
 .products .donate-span:hover{
     background-color: #fff;
-    color: rgb(240, 40, 20);
-    border: 1px solid rgb(240, 40, 20)
+    color: #2aa5c7;
+    border: 1px solid #2aa5c7
 }
 
 .video{
@@ -179,11 +196,15 @@
 }
 
 .video td{
-    background-color: #dfdfdf;
+    background-color: #fff;
     width: 300px;
     padding: 0px 45px;
     height: 250px;
-    box-shadow: 0 -3px 10px #cecece;
+    box-shadow: 0 -3px 10px #ebebeb;
+}
+
+.video td:hover{
+    box-shadow: 0 -3px 20px #cdcdcd;
 }
 
 .contacts{

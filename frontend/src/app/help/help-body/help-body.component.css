@@ -100,6 +100,7 @@
     color: #777;
     text-align: justify;
     height: 100%;
+    text-indent: 30px;
 }
 
 details[open] summary ~ *{

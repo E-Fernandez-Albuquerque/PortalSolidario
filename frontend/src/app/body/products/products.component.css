@@ -80,6 +80,10 @@ mat-card{
 
 }
 
+#check4:checked + .product:hover{
+    border-color: red;
+}
+
 .product-img{
     width: 200px;
     padding: 0 15px;

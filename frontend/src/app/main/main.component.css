@@ -3,3 +3,7 @@ button{
     height: 30px;
     margin: 15px ;
 }
+
+div{
+    background-image: url("/assets/index.png");
+}
