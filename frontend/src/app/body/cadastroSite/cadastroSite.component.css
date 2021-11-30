@@ -123,3 +123,23 @@ mat-card{
     display: flex;
     align-items: center;
 }
+
+.button-alteracao{
+    background-color: #52C4B9 !important;
+    border-color: #52C4B9 !important;
+}
+
+.button-alteracao:hover{
+    background-color: #25b3a4 !important;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-cancelar,
+.button-alteracao{
+    margin: 0;
+    width: 280px;
+}

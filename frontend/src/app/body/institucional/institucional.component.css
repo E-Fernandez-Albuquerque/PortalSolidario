@@ -7,6 +7,11 @@ mat-card{
     flex: 1 1 auto;
 }
 
+#title{
+    padding: 20px 0 10px 20px;
+    display: flex;
+}
+
 .historia .form-control{
     padding: 2.000rem 0.75rem;
 }

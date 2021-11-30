@@ -6,12 +6,20 @@
     <app-side-menu></app-side-menu>
 
     <div class="container-fluid">
+        <table>
+            <tr>
+                <td>
+                    <mat-card-title id="title">Informações básicas</mat-card-title>
+                </td>
+                <td><i class='material-icons help-icon' routerLink="/help">help</i></td>
+            </tr>
+        </table>
         <div class="row mt-5">
             <!-- left column -->
             <div class="col-md-6">
                 <!-- general form elements -->
                 <div class="card card-light">
-                    <div class="card-header">
+                    <div class="card-header" style="height: 45px; background-color: #F3FAFA;">
                         <h3 class="card-title">Dados do site</h3>
                     </div>
                     <!-- /.card-header -->
@@ -21,54 +29,47 @@
                             <div class="form-group mt-2">
                                 <label for="exampleInputEmail1">Nome Da instituição</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Enter email">
+                                    placeholder="Nome da instituição">
                             </div>
                             <div class="form-group mt-2">
                                 <label for="exampleInputPassword1">CNPJ</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
+                                    placeholder="CNPJ">
                             </div>
                             <div class="form-group mt-2">
                                 <label for="exampleInputPassword1">Telefone</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
+                                    placeholder="Telefone">
                             </div>
                             <div class="form-group mt-2">
                                 <label for="exampleInputPassword1">E-mail</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
+                                    placeholder="E-mail">
                             </div>
                             <div class="form-group mt-2">
                                 <label for="exampleInputPassword1">Cep</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
+                                    placeholder="CEP">
                             </div>
-
-
                         </div>
-                    
                     </form>
                 </div>
-          
-
-
             </div>
-          
+
             <div class="col-md-6">
-              
                 <div class="card card-light">
-                    <div class="card-header">
+                    <div class="card-header" style="height: 45px; background-color: #F3FAFA;">
                         <h3 class="card-title">Dados de Acesso</h3>
                     </div>
                     <div class="card-body">
                         <div class="form-group mt-2">
                             <label for="exampleInputEmail1">Login</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Login">
                         </div>
                         <div class="form-group mt-2">
                             <label for="exampleInputPassword1">Senha</label>
                             <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password">
+                                placeholder="Senha">
                         </div>
 
 
@@ -79,20 +80,20 @@
 
 
 
-             
+
             </div>
             <!--/.col (right) -->
         </div>
         <!-- /.row -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 buttons">
             <div class="row">
                 <!-- left column -->
-                <div class="col-md-7">
-                    <button class="btn btn-danger">cancelar</button>
+                <div class="col-md-5">
+                    <button class="btn btn-success button-alteracao" (click)="msgConfirmacao('Solicitações encaminhadas com sucesso.')">Solicitar alterações</button>
 
                 </div>
                 <div class="col-md-5 btns">
-                    <button class="btn btn-success ">Solicitar Alterações</button>
+                    <button class="btn btn-danger button-cancelar">Cancelar</button>
                     <a href="/help"> <button class="btn btn-succes"></button></a>
                     <i class='material-icons help-icon' routerLink="/help">help</i>
                 </div>
@@ -101,11 +102,4 @@
     </div>
 
 </div>
-
-
-
-
-
-
-
 <app-footer></app-footer>

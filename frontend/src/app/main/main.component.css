@@ -1,9 +1,21 @@
 button{
     width: 200px;
-    height: 30px;
-    margin: 15px ;
+    height: 40px;
+    margin: 130px 1100px;
+    background-color: #E10B18;
+    border: none;
+    border-radius: 5px;
+    color: #fcfcfc;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover{
+    background-color: #bd0c18;
 }
 
 div{
     background-image: url("/assets/index.png");
+    background-repeat: no-repeat;
 }

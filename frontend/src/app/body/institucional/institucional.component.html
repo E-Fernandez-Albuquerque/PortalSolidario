@@ -8,94 +8,132 @@
 <div style="display: flex;">
     <app-side-menu></app-side-menu>
     <div class="container-fluid">
+        <div style="display: flex; align-items: center;">
+            <mat-card-title id="title">Institucional</mat-card-title>
+            <i class='material-icons help-icon' style="font-size: 23px" routerLink="/help">help</i>
+        </div>
+
         <div class="row mt-5">
             <!-- left column -->
             <div class="col-md-12">
                 <!-- general form elements -->
                 <div class="card card-light">
-                    <div class="card-header">
-                        <h3 class="card-title">Institucional</h3>
-                    </div>
                     <form>
                         <div class="historia">
                             <div class="form-group mt-2">
-                                <label for="exampleInputEmail1">História e valores da instituição</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                placeholder="Sobre a instituição">
+                                <div style="display: flex; align-items: center;">
+                                    <label for="exampleInputEmail1" style="font-size: 18px; margin-bottom: 8px">História e
+                                        valores da instituição</label>
+                                    <i class='material-icons help-icon' style="font-size: 23px"
+                                        routerLink="/help">help</i>
+                                </div>
+                                <textarea rows=3 type="text" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Sobre a instituição"></textarea>
                             </div>
                         </div>
-                        
+
                         <div class="fotos">
-                            <p>Fotos destaque para instituição</p>
+
                             <table>
-                                <tr>
-                                    <td class=tabela>
-                                        <div class="row">
-                                            <p>Foto para galeria:</p>
-                                        </div>
+                                <tr style="vertical-align: mi;">
+                                    <td class=tabela style="width: 200px;">
+                                        <span>Fotos destaque da instituição:</span>
                                     </td>
                                     <td>
-                                        <div>
-                                            <button class="btn">Carregar imagem</button>
-                                        </div>
+                                        <a
+                                            style="color: #52C4B9; cursor:pointer; text-decoration: underline; padding: 0 10px;">Carregar
+                                            imagem</a>
+                                    </td>
+                                    <td>
+                                        <i class='material-icons help-icon' style="font-size: 23px"
+                                            routerLink="/help">help</i>
                                     </td>
                                 </tr>
                             </table>
+
+
+                            <table>
+                                <tr style="vertical-align: mi;">
+                                    <td class=tabela style="width: 200px; padding: 8px 0;">
+                                        <span>Foto para galeria:</span>
+                                    </td>
+                                    <td>
+                                        <a
+                                            style="color: #52C4B9; cursor:pointer; text-decoration: underline; padding: 0 10px;">Carregar
+                                            imagem</a>
+                                    </td>
+                                    <td>
+                                        <i class='material-icons help-icon' style="font-size: 23px"
+                                            routerLink="/help">help</i>
+                                    </td>
+                                </tr>
+                            </table>
+
                             <table class=video>
                                 <tr>
-                                    <td class=tabela>
-                                        <div class="row">
-                                            <p>Vídeo sobre a ONG:</p>
-                                        </div>
+                                    <td class=tabela style="width: 200px;">
+                                        <span>Vídeo sobre a ONG:</span>
                                     </td>
                                     <td>
-                                        <div>
-                                            <button class="btn">Carregar vídeo</button>
-                                        </div>
+                                        <a
+                                            style="color: #52C4B9; cursor:pointer; text-decoration: underline; padding: 0 10px;">Carregar
+                                            vídeo</a>
+                                    </td>
+                                    <td>
+                                        <i class='material-icons help-icon' style="font-size: 23px"
+                                            routerLink="/help">help</i>
                                     </td>
                                 </tr>
                             </table>
-                        
+
                         </div>
                         <div class="card-body">
                             <div class="form-group mt-2">
-                                <label for="inputLink">Link's sobre a instituição</label>
+                                <div style="display: flex; align-items: center;">
+                                    <label for="inputLink" style="font-size: 18px; margin-bottom: 8px">Links sobre a
+                                        instituição</label>
+                                    <i class='material-icons help-icon' style="font-size: 23px"
+                                        routerLink="/help">help</i>
+                                </div>
+
                                 <input type="link" class="form-control" id="inputLink">
-                                <button class="btn">+ Adicionar novo link</button>
+                                <a style="color: #52C4B9; cursor:pointer; text-decoration: underline;">+ Adicionar novo
+                                    link</a>
                             </div>
                         </div>
                         <div class="card-body">
                             <div class="form-group mt-2">
+                                <div style="display: flex; align-items: center;">
+                                    <label for="inputAcaoSocial" style="font-size: 18px; margin-bottom: 8px">Ação
+                                        Social</label>
+                                    <i class='material-icons help-icon' style="font-size: 23px"
+                                        routerLink="/help">help</i>
+                                </div>
                                 <!--Adicionar btn de carregar a imagem e consertar a formatação-->
-                                <label for="inputAcaoSocial">Ação Social</label>
-                                <input type="link" class="form-control" id="inputAcaoSocial">
-                                <button class="btn">+ Adicionar novo link</button>
-                                <input type="link" class="form-control" id="inputAcaoSocial" placeholder="Descrição da ação social"> 
+
+                                <input type="text" placeholder='Título da ação social' class="form-control"
+                                    style="margin-bottom: 20px;" id="inputAcaoSocial">
+                                <textarea rows=5 type="text" class="form-control" id="inputAcaoSocial"
+                                    placeholder="Descrição da ação social"></textarea>
+                                <a style="color: #52C4B9; cursor:pointer; text-decoration: underline;">+ Adicionar ação social</a>
                             </div>
                         </div>
 
                         <div class="card-body">
                             <!--Categorizar as redes sociais e add os icones-->
                             <div class="form-group mt-2">
-                                <label for="inputLink">Redes sociais</label>
+                                <div style="display: flex; align-items: center;">
+                                    <label for="inputLink" style="font-size: 18px; margin-bottom: 8px">Redes
+                                        sociais</label>
+                                    <i class='material-icons help-icon' style="font-size: 23px"
+                                        routerLink="/help">help</i>
+                                </div>
+
                                 <input type="link" class="form-control" id="inputLink">
-                                <button class="btn">+ Adicionar novo link</button>
+                                <a style="color: #52C4B9; cursor:pointer; text-decoration: underline;">+ Adicionar rede social</a>
                             </div>
                         </div>
                     </form>
-                    <div class="container-fluid mt-5">
-                        <div class="row">
-                            <!-- left column -->
-                            <div class="col-md-7">
-                                <button class="btn btn-cancelar">cancelar</button>
-            
-                            </div>
-                            <div class="col-md-5">
-                                <button class="btn">Solicitar Alterações</button>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
                 </div>
             </div>
         </div>
